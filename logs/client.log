@@ -2748,3 +2748,22 @@ ConnectionAbortedError: [WinError 10053] Программа на вашем хо
 2022-05-30 19:28:08,245 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
 2022-05-30 19:28:22,358 DEBUG transport.py Транспорт завершает работу.
 2022-05-30 19:28:22,885 DEBUG transport.py Потеряно соединение с сервером.
+2022-05-30 19:31:22,262 DEBUG client.py Args loaded
+2022-05-30 19:31:30,463 DEBUG client.py Using USERNAME = user1, PASSWD = 123456.
+2022-05-30 19:31:30,463 INFO client.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: user1
+2022-05-30 19:31:30,508 DEBUG client.py Keys successfully loaded.
+2022-05-30 19:31:30,525 INFO transport.py Попытка подключения №1
+2022-05-30 19:31:30,526 DEBUG transport.py Connection established.
+2022-05-30 19:31:30,526 DEBUG transport.py Starting auth dialog.
+2022-05-30 19:31:30,531 DEBUG transport.py Passwd hash ready: b'188e1be67d44cd1aac694afe5b65d85b283e4d9ffae922e20706a0e19d2e4da024320ffca359a2e1ef47775288607e349d94bfa8c09baa1bd98902951f36c0fc'
+2022-05-30 19:31:30,532 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1653928290.5329256, 'user': {'account_name': 'user1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjgnVJ9hpnhSvoyUaAlPI\nmwNBXZsgt/eze1RMGt2gcewmDJLObsKMDElJMn1ozk0uF39S0wFdVX5d+wvKzGvb\nh0fsSSFbTdMivdoS3YYrCHYKrE+/z1pRvOrYZZ+TwXnrJRcwGv4tWQnDMIQ0ixc/\nGNliOgqW84ZdAEPcgC7btejP2YTGQD1dPxhRcpFpjjF7JwdePSQQmugp4DZkM1dy\nNSO0bQgrwqOe9uq8629dBxCIZ1BIw+zxmK5RkB6Wuqm9ef8cnUtCH1a7anCJVQ5Y\nu2x3C2S5VSmrBQmG/aHw8z9L1XWuSG5QE6rwwoL/WAEVdTvBBp2iARBtXUfL3CLd\nXwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-05-30 19:31:31,044 DEBUG transport.py Server response = {'response': 511, 'bin': 'bd53fd30fad4f1be7217e963f12ccce39d62bd809742ca111893f5f154946af8b71c87a13ec15d8cf23ec56d2c0bcc17098e54ee9dd1c2100b28d0c314d45b4d'}.
+2022-05-30 19:31:31,045 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-05-30 19:31:31,045 DEBUG transport.py Запрос списка известных пользователей user1
+2022-05-30 19:31:31,581 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-05-30 19:31:31,581 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1653928291.5817025, 'user': 'user1'}
+2022-05-30 19:31:32,084 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-05-30 19:31:32,084 DEBUG client.py Transport ready.
+2022-05-30 19:31:32,085 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-05-30 19:37:52,935 DEBUG transport.py Транспорт завершает работу.
+2022-05-30 19:37:53,227 DEBUG transport.py Потеряно соединение с сервером.
